@@ -242,76 +242,6 @@ control_msgs_generate_messages_py/fast:
 .PHONY : control_msgs_generate_messages_py/fast
 
 # Convenience name for target.
-franka_ros/franka_gripper/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/rule:
-	cd /home/airocs/ros/transformations_ws/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 franka_ros/franka_gripper/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/rule
-.PHONY : franka_ros/franka_gripper/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/rule
-
-# Convenience name for target.
-geometry_msgs_generate_messages_cpp: franka_ros/franka_gripper/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/rule
-.PHONY : geometry_msgs_generate_messages_cpp
-
-# fast build rule for target.
-geometry_msgs_generate_messages_cpp/fast:
-	cd /home/airocs/ros/transformations_ws/build && $(MAKE) $(MAKESILENT) -f franka_ros/franka_gripper/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build.make franka_ros/franka_gripper/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build
-.PHONY : geometry_msgs_generate_messages_cpp/fast
-
-# Convenience name for target.
-franka_ros/franka_gripper/CMakeFiles/geometry_msgs_generate_messages_eus.dir/rule:
-	cd /home/airocs/ros/transformations_ws/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 franka_ros/franka_gripper/CMakeFiles/geometry_msgs_generate_messages_eus.dir/rule
-.PHONY : franka_ros/franka_gripper/CMakeFiles/geometry_msgs_generate_messages_eus.dir/rule
-
-# Convenience name for target.
-geometry_msgs_generate_messages_eus: franka_ros/franka_gripper/CMakeFiles/geometry_msgs_generate_messages_eus.dir/rule
-.PHONY : geometry_msgs_generate_messages_eus
-
-# fast build rule for target.
-geometry_msgs_generate_messages_eus/fast:
-	cd /home/airocs/ros/transformations_ws/build && $(MAKE) $(MAKESILENT) -f franka_ros/franka_gripper/CMakeFiles/geometry_msgs_generate_messages_eus.dir/build.make franka_ros/franka_gripper/CMakeFiles/geometry_msgs_generate_messages_eus.dir/build
-.PHONY : geometry_msgs_generate_messages_eus/fast
-
-# Convenience name for target.
-franka_ros/franka_gripper/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/rule:
-	cd /home/airocs/ros/transformations_ws/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 franka_ros/franka_gripper/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/rule
-.PHONY : franka_ros/franka_gripper/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/rule
-
-# Convenience name for target.
-geometry_msgs_generate_messages_lisp: franka_ros/franka_gripper/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/rule
-.PHONY : geometry_msgs_generate_messages_lisp
-
-# fast build rule for target.
-geometry_msgs_generate_messages_lisp/fast:
-	cd /home/airocs/ros/transformations_ws/build && $(MAKE) $(MAKESILENT) -f franka_ros/franka_gripper/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build.make franka_ros/franka_gripper/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build
-.PHONY : geometry_msgs_generate_messages_lisp/fast
-
-# Convenience name for target.
-franka_ros/franka_gripper/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/rule:
-	cd /home/airocs/ros/transformations_ws/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 franka_ros/franka_gripper/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/rule
-.PHONY : franka_ros/franka_gripper/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/rule
-
-# Convenience name for target.
-geometry_msgs_generate_messages_nodejs: franka_ros/franka_gripper/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/rule
-.PHONY : geometry_msgs_generate_messages_nodejs
-
-# fast build rule for target.
-geometry_msgs_generate_messages_nodejs/fast:
-	cd /home/airocs/ros/transformations_ws/build && $(MAKE) $(MAKESILENT) -f franka_ros/franka_gripper/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/build.make franka_ros/franka_gripper/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/build
-.PHONY : geometry_msgs_generate_messages_nodejs/fast
-
-# Convenience name for target.
-franka_ros/franka_gripper/CMakeFiles/geometry_msgs_generate_messages_py.dir/rule:
-	cd /home/airocs/ros/transformations_ws/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 franka_ros/franka_gripper/CMakeFiles/geometry_msgs_generate_messages_py.dir/rule
-.PHONY : franka_ros/franka_gripper/CMakeFiles/geometry_msgs_generate_messages_py.dir/rule
-
-# Convenience name for target.
-geometry_msgs_generate_messages_py: franka_ros/franka_gripper/CMakeFiles/geometry_msgs_generate_messages_py.dir/rule
-.PHONY : geometry_msgs_generate_messages_py
-
-# fast build rule for target.
-geometry_msgs_generate_messages_py/fast:
-	cd /home/airocs/ros/transformations_ws/build && $(MAKE) $(MAKESILENT) -f franka_ros/franka_gripper/CMakeFiles/geometry_msgs_generate_messages_py.dir/build.make franka_ros/franka_gripper/CMakeFiles/geometry_msgs_generate_messages_py.dir/build
-.PHONY : geometry_msgs_generate_messages_py/fast
-
-# Convenience name for target.
 franka_ros/franka_gripper/CMakeFiles/trajectory_msgs_generate_messages_cpp.dir/rule:
 	cd /home/airocs/ros/transformations_ws/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 franka_ros/franka_gripper/CMakeFiles/trajectory_msgs_generate_messages_cpp.dir/rule
 .PHONY : franka_ros/franka_gripper/CMakeFiles/trajectory_msgs_generate_messages_cpp.dir/rule
@@ -1220,11 +1150,6 @@ help:
 	@echo "... franka_gripper_genlisp"
 	@echo "... franka_gripper_gennodejs"
 	@echo "... franka_gripper_genpy"
-	@echo "... geometry_msgs_generate_messages_cpp"
-	@echo "... geometry_msgs_generate_messages_eus"
-	@echo "... geometry_msgs_generate_messages_lisp"
-	@echo "... geometry_msgs_generate_messages_nodejs"
-	@echo "... geometry_msgs_generate_messages_py"
 	@echo "... sensor_msgs_generate_messages_cpp"
 	@echo "... sensor_msgs_generate_messages_eus"
 	@echo "... sensor_msgs_generate_messages_lisp"

@@ -1,4 +1,6 @@
 # Hashes of file build rules.
+1a404eb2058dcbfd5f1f74a332165507 /home/airocs/ros/transformations_ws/devel/include/art_publisher/body.h
+cbb7053ec8444ce5bca17e0c42a09673 /home/airocs/ros/transformations_ws/devel/include/art_publisher/marker.h
 e7e09b9d3032b5b22f76f9e2cd60affa /home/airocs/ros/transformations_ws/devel/include/franka_example_controllers/JointTorqueComparison.h
 fd48855d2eacd66e241590c5dbfd6599 /home/airocs/ros/transformations_ws/devel/include/franka_example_controllers/compliance_paramConfig.h
 7002ec394f2fa73580196a3f8095e070 /home/airocs/ros/transformations_ws/devel/include/franka_example_controllers/desired_mass_paramConfig.h
@@ -50,6 +52,9 @@ b5acca476d33a3379efbddb1eb7ee89e /home/airocs/ros/transformations_ws/devel/inclu
 d7aea781f6cc63ec5dfcea0976bc0aac /home/airocs/ros/transformations_ws/devel/include/franka_msgs/SetJointImpedance.h
 f6f85b0e3097e23e11f4a10ca3cca288 /home/airocs/ros/transformations_ws/devel/include/franka_msgs/SetKFrame.h
 8340811c14399951131f47a5d59bcfa2 /home/airocs/ros/transformations_ws/devel/include/franka_msgs/SetLoad.h
+289069ead2f3143bf5628f44780a6de8 /home/airocs/ros/transformations_ws/devel/lib/python2.7/dist-packages/art_publisher/msg/__init__.py
+82918d9096d5d853ea6a0823c1070b4e /home/airocs/ros/transformations_ws/devel/lib/python2.7/dist-packages/art_publisher/msg/_body.py
+51945157cd70b2b75e0e657c29dbef40 /home/airocs/ros/transformations_ws/devel/lib/python2.7/dist-packages/art_publisher/msg/_marker.py
 80c1c550cfb1a495fa8c6ba9a7d445d5 /home/airocs/ros/transformations_ws/devel/lib/python2.7/dist-packages/franka_example_controllers/msg/_JointTorqueComparison.py
 cd1ec9a240c7ee9c4cd05f37c58d07c3 /home/airocs/ros/transformations_ws/devel/lib/python2.7/dist-packages/franka_example_controllers/msg/__init__.py
 ac86dbe2e235d30f04589bccc8757db6 /home/airocs/ros/transformations_ws/devel/lib/python2.7/dist-packages/franka_gripper/msg/_GraspAction.py
@@ -100,6 +105,8 @@ ca2107a2e62c55056cf04bcc498f8eda /home/airocs/ros/transformations_ws/devel/lib/p
 195b088c96b29d5388ca6abb6129d75f /home/airocs/ros/transformations_ws/devel/lib/python2.7/dist-packages/franka_msgs/srv/_SetKFrame.py
 198dec2b0a58699341932d62784f1b59 /home/airocs/ros/transformations_ws/devel/lib/python2.7/dist-packages/franka_msgs/srv/_SetLoad.py
 d456a1ce149c908b27a4e381b7ae6066 /home/airocs/ros/transformations_ws/devel/lib/python2.7/dist-packages/franka_msgs/srv/__init__.py
+634c7ad261fc0d40d0afe4051d164090 /home/airocs/ros/transformations_ws/devel/share/common-lisp/ros/art_publisher/msg/body.lisp
+0d1ac6f1c5a1d0da05d5359c40a98efe /home/airocs/ros/transformations_ws/devel/share/common-lisp/ros/art_publisher/msg/marker.lisp
 3e5a017e097ff96f9598456e93a2f51f /home/airocs/ros/transformations_ws/devel/share/common-lisp/ros/franka_example_controllers/msg/JointTorqueComparison.lisp
 8ec5ff2184f5dcbb82f88dd3edf4e1f9 /home/airocs/ros/transformations_ws/devel/share/common-lisp/ros/franka_gripper/msg/GraspAction.lisp
 7f8e4a7ab106bbdb57855693a4db5d66 /home/airocs/ros/transformations_ws/devel/share/common-lisp/ros/franka_gripper/msg/GraspActionFeedback.lisp
@@ -146,6 +153,8 @@ d4049f9a30d244a37c0f804b9fc3bada /home/airocs/ros/transformations_ws/devel/share
 79d1a3a48a24b31f29d3757597602291 /home/airocs/ros/transformations_ws/devel/share/common-lisp/ros/franka_msgs/srv/SetJointImpedance.lisp
 c708345671946cdcfe8558c7f70412cd /home/airocs/ros/transformations_ws/devel/share/common-lisp/ros/franka_msgs/srv/SetKFrame.lisp
 e807b9fcae3b9d3aca72be7306987080 /home/airocs/ros/transformations_ws/devel/share/common-lisp/ros/franka_msgs/srv/SetLoad.lisp
+71c809e00839620c188544d90b56e661 /home/airocs/ros/transformations_ws/devel/share/gennodejs/ros/art_publisher/msg/body.js
+d84c117625401169067ec29ddcb7e567 /home/airocs/ros/transformations_ws/devel/share/gennodejs/ros/art_publisher/msg/marker.js
 eacd7290fe1748241909897f928d0b31 /home/airocs/ros/transformations_ws/devel/share/gennodejs/ros/franka_example_controllers/msg/JointTorqueComparison.js
 97acf309e4d208a167d05ef076520596 /home/airocs/ros/transformations_ws/devel/share/gennodejs/ros/franka_gripper/msg/GraspAction.js
 c8a12c36b82bba9723e937b18e8d3a2d /home/airocs/ros/transformations_ws/devel/share/gennodejs/ros/franka_gripper/msg/GraspActionFeedback.js
@@ -192,6 +201,9 @@ fc9bc9bb5eeb269de15edaaca044e730 /home/airocs/ros/transformations_ws/devel/share
 01f6b57008e3252ec1365eec4352b57c /home/airocs/ros/transformations_ws/devel/share/gennodejs/ros/franka_msgs/srv/SetJointImpedance.js
 4c60dd2c93b0445cb9a36adaacfdbe7b /home/airocs/ros/transformations_ws/devel/share/gennodejs/ros/franka_msgs/srv/SetKFrame.js
 912c316f79fedb50ce875add2fade445 /home/airocs/ros/transformations_ws/devel/share/gennodejs/ros/franka_msgs/srv/SetLoad.js
+7105b0c0f61b47834a761a2a9eed3a74 /home/airocs/ros/transformations_ws/devel/share/roseus/ros/art_publisher/manifest.l
+7244f0cddebc6db6b6b773f24d142ee1 /home/airocs/ros/transformations_ws/devel/share/roseus/ros/art_publisher/msg/body.l
+afa74e673d38de5c625e20b0acc5241f /home/airocs/ros/transformations_ws/devel/share/roseus/ros/art_publisher/msg/marker.l
 21786712c8694082833940b339ee325b /home/airocs/ros/transformations_ws/devel/share/roseus/ros/franka_example_controllers/manifest.l
 f4669cb8b911a1533e3af4bf757261dd /home/airocs/ros/transformations_ws/devel/share/roseus/ros/franka_example_controllers/msg/JointTorqueComparison.l
 005b4d427feee0ee507102625f511925 /home/airocs/ros/transformations_ws/devel/share/roseus/ros/franka_gripper/manifest.l
@@ -242,6 +254,13 @@ a53833b6e477aae2cb9d684ea38c6eb6 /home/airocs/ros/transformations_ws/devel/share
 9e4066e5f10eb0ea51caf7120e768e49 /home/airocs/ros/transformations_ws/devel/share/roseus/ros/franka_msgs/srv/SetKFrame.l
 46af9f32fae33ff4d7f4952574f93fe4 /home/airocs/ros/transformations_ws/devel/share/roseus/ros/franka_msgs/srv/SetLoad.l
 af2e04bf47702eb20948df85c098fc9d CMakeFiles/clean_test_results
+2a8b74a1adad9d5134737658d5d184c7 art_publisher/CMakeFiles/_art_publisher_generate_messages_check_deps_body
+8d2b37736caa62a5774e6ec2d1c5370f art_publisher/CMakeFiles/_art_publisher_generate_messages_check_deps_marker
+262f1f4f83d1fd8fe153e75048c4388c art_publisher/CMakeFiles/art_publisher_generate_messages_cpp
+262f1f4f83d1fd8fe153e75048c4388c art_publisher/CMakeFiles/art_publisher_generate_messages_eus
+262f1f4f83d1fd8fe153e75048c4388c art_publisher/CMakeFiles/art_publisher_generate_messages_lisp
+262f1f4f83d1fd8fe153e75048c4388c art_publisher/CMakeFiles/art_publisher_generate_messages_nodejs
+262f1f4f83d1fd8fe153e75048c4388c art_publisher/CMakeFiles/art_publisher_generate_messages_py
 534244520d02550ef937cb97ac3c322b franka_ros/franka_example_controllers/CMakeFiles/_franka_example_controllers_generate_messages_check_deps_JointTorqueComparison
 925d8b6c84776a16717ead19feef60d9 franka_ros/franka_example_controllers/CMakeFiles/franka_example_controllers_gencfg
 925d8b6c84776a16717ead19feef60d9 franka_ros/franka_example_controllers/CMakeFiles/franka_example_controllers_generate_messages_cpp
