@@ -17,13 +17,13 @@ double w_or;
 void artCallback (const art_publisher::body::ConstPtr &msg)
 {
     
-    x_pos = msg->bodies[0].pose.position.x/1000;
-    y_pos = msg->bodies[0].pose.position.y/1000;
-    z_pos = msg->bodies[0].pose.position.z/1000;
-    x_or  = msg->bodies[0].pose.orientation.x; 
-    y_or  = msg->bodies[0].pose.orientation.y; 
-    z_or  = msg->bodies[0].pose.orientation.z; 
-    w_or  = msg->bodies[0].pose.orientation.w; 
+    x_pos = msg->bodies[2].pose.position.x/1000;
+    y_pos = msg->bodies[2].pose.position.y/1000;
+    z_pos = msg->bodies[2].pose.position.z/1000;
+    x_or  = msg->bodies[2].pose.orientation.x; 
+    y_or  = msg->bodies[2].pose.orientation.y; 
+    z_or  = msg->bodies[2].pose.orientation.z; 
+    w_or  = msg->bodies[2].pose.orientation.w; 
     ROS_INFO("%f", x_pos);
     ROS_INFO("%f", y_pos);
     ROS_INFO("%f", z_pos);
@@ -37,7 +37,7 @@ void artCallback (const art_publisher::body::ConstPtr &msg)
     transform.setOrigin( tf::Vector3(x_pos, y_pos,z_pos ) );
     tf::Quaternion q(x_or,y_or,z_or,w_or);
     transform.setRotation(q);
-    br.sendTransform(tf::StampedTransform(transform, ros::Time::now(), "world", "object_frame"));
+    br.sendTransform(tf::StampedTransform(transform, ros::Time::now(), "world", "calib_tool_ee"));
 }
 
 int main( int argc, char** argv )
