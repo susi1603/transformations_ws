@@ -24,13 +24,20 @@ void artCallback (const art_publisher::body::ConstPtr &msg)
     y_or  = msg->bodies[2].pose.orientation.y; 
     z_or  = msg->bodies[2].pose.orientation.z; 
     w_or  = msg->bodies[2].pose.orientation.w; 
-    ROS_INFO("%f", x_pos);
-    ROS_INFO("%f", y_pos);
-    ROS_INFO("%f", z_pos);
-    ROS_INFO("%f", x_or );
-    ROS_INFO("%f", y_or );
-    ROS_INFO("%f", z_or );
-    ROS_INFO("%f", w_or );
+    // ROS_INFO("%f", x_pos);
+    // ROS_INFO("%f", y_pos);
+    // ROS_INFO("%f", z_pos);
+    // ROS_INFO("%f", x_or );
+    // ROS_INFO("%f", y_or );
+    // ROS_INFO("%f", z_or );
+    // ROS_INFO("%f", w_or );
+    std::cout << "ART x" << x_pos << std::endl;
+    std::cout << "ART y" << y_pos << std::endl;
+    std::cout << "ART z" << z_pos << std::endl;
+    std::cout << "ART rot x" << x_or  << std::endl;
+    std::cout << "ART rot y" << y_or  << std::endl;
+    std::cout << "ART rot z" << z_or  << std::endl;
+    std::cout << "ART rot w" << w_or  << std::endl;
 
     static tf::TransformBroadcaster br;
     tf::Transform transform;
@@ -38,6 +45,12 @@ void artCallback (const art_publisher::body::ConstPtr &msg)
     tf::Quaternion q(x_or,y_or,z_or,w_or);
     transform.setRotation(q);
     br.sendTransform(tf::StampedTransform(transform, ros::Time::now(), "world", "calib_tool_ee"));
+
+    tf::Transform world;
+    world.setOrigin( tf::Vector3(0.0, 0.0,0.0) );
+    tf::Quaternion q2(0, 0, 0, 1);
+    world.setRotation(q2);
+    br.sendTransform(tf::StampedTransform(world, ros::Time::now(), "world", "myworld"));
 }
 
 int main( int argc, char** argv )
