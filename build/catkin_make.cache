@@ -1,2 +1,0 @@
-arm_description:art_publisher:franka_ros/franka_control:franka_ros/franka_description:franka_ros/franka_example_controllers:franka_ros/franka_gazebo:franka_ros/franka_gripper:franka_ros/franka_hw:franka_ros/franka_msgs:franka_ros/franka_ros:franka_ros/franka_visualization:using_markers
--DCATKIN_DEVEL_PREFIX=/home/airocs/ros/transformations_ws/devel -DCMAKE_INSTALL_PREFIX=/home/airocs/ros/transformations_ws/install -G Unix Makefiles

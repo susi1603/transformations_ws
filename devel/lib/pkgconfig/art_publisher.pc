@@ -1,8 +1,0 @@
-prefix=/home/airocs/ros/transformations_ws/devel
-
-Name: art_publisher
-Description: Description of art_publisher
-Version: 0.0.0
-Cflags: -I/home/airocs/ros/transformations_ws/devel/include -I/home/airocs/ros/transformations_ws/src/art_publisher/include
-Libs: -L${prefix}/lib -lart_publisher
-Requires: geometry_msgs roscpp std_msgs
