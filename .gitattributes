@@ -1,34 +1,34 @@
-build/ filter=lfs diff=lfs merge=lfs -text
-devel/ filter=lfs diff=lfs merge=lfs -text
-src/ filter=lfs diff=lfs merge=lfs -text
-build/arm_description filter=lfs diff=lfs merge=lfs -text
-build/CTestTestfile.cmake filter=lfs diff=lfs merge=lfs -text
-devel/include filter=lfs diff=lfs merge=lfs -text
-devel/lib filter=lfs diff=lfs merge=lfs -text
-devel/setup.zsh filter=lfs diff=lfs merge=lfs -text
-devel/share filter=lfs diff=lfs merge=lfs -text
-src/franka_ros filter=lfs diff=lfs merge=lfs -text
-build/catkin_make.cache filter=lfs diff=lfs merge=lfs -text
-build/catkin filter=lfs diff=lfs merge=lfs -text
-build/CTestCustom.cmake filter=lfs diff=lfs merge=lfs -text
-src/arm_description filter=lfs diff=lfs merge=lfs -text
-devel/setup.sh filter=lfs diff=lfs merge=lfs -text
-build/atomic_configure filter=lfs diff=lfs merge=lfs -text
-build/catkin_generated filter=lfs diff=lfs merge=lfs -text
-build/CMakeCache.txt filter=lfs diff=lfs merge=lfs -text
-build/gtest filter=lfs diff=lfs merge=lfs -text
-build/test_results filter=lfs diff=lfs merge=lfs -text
-devel/cmake.lock filter=lfs diff=lfs merge=lfs -text
-devel/env.sh filter=lfs diff=lfs merge=lfs -text
-src/CMakeLists.txt filter=lfs diff=lfs merge=lfs -text
-build/CATKIN_IGNORE filter=lfs diff=lfs merge=lfs -text
-build/cmake_install.cmake filter=lfs diff=lfs merge=lfs -text
-build/CTestConfiguration.ini filter=lfs diff=lfs merge=lfs -text
-build/franka_ros filter=lfs diff=lfs merge=lfs -text
-build/Makefile filter=lfs diff=lfs merge=lfs -text
-devel/local_setup.bash filter=lfs diff=lfs merge=lfs -text
-devel/local_setup.sh filter=lfs diff=lfs merge=lfs -text
-devel/local_setup.zsh filter=lfs diff=lfs merge=lfs -text
-devel/_setup_util.py filter=lfs diff=lfs merge=lfs -text
-build/CMakeFiles filter=lfs diff=lfs merge=lfs -text
-devel/setup.bash filter=lfs diff=lfs merge=lfs -text
+# build/ filter=lfs diff=lfs merge=lfs -text
+# devel/ filter=lfs diff=lfs merge=lfs -text
+# src/ filter=lfs diff=lfs merge=lfs -text
+# build/arm_description filter=lfs diff=lfs merge=lfs -text
+# build/CTestTestfile.cmake filter=lfs diff=lfs merge=lfs -text
+# devel/include filter=lfs diff=lfs merge=lfs -text
+# devel/lib filter=lfs diff=lfs merge=lfs -text
+# devel/setup.zsh filter=lfs diff=lfs merge=lfs -text
+# devel/share filter=lfs diff=lfs merge=lfs -text
+# src/franka_ros filter=lfs diff=lfs merge=lfs -text
+# build/catkin_make.cache filter=lfs diff=lfs merge=lfs -text
+# build/catkin filter=lfs diff=lfs merge=lfs -text
+# build/CTestCustom.cmake filter=lfs diff=lfs merge=lfs -text
+# src/arm_description filter=lfs diff=lfs merge=lfs -text
+# devel/setup.sh filter=lfs diff=lfs merge=lfs -text
+# build/atomic_configure filter=lfs diff=lfs merge=lfs -text
+# build/catkin_generated filter=lfs diff=lfs merge=lfs -text
+# build/CMakeCache.txt filter=lfs diff=lfs merge=lfs -text
+# build/gtest filter=lfs diff=lfs merge=lfs -text
+# build/test_results filter=lfs diff=lfs merge=lfs -text
+# devel/cmake.lock filter=lfs diff=lfs merge=lfs -text
+# devel/env.sh filter=lfs diff=lfs merge=lfs -text
+# src/CMakeLists.txt filter=lfs diff=lfs merge=lfs -text
+# build/CATKIN_IGNORE filter=lfs diff=lfs merge=lfs -text
+# build/cmake_install.cmake filter=lfs diff=lfs merge=lfs -text
+# build/CTestConfiguration.ini filter=lfs diff=lfs merge=lfs -text
+# build/franka_ros filter=lfs diff=lfs merge=lfs -text
+# build/Makefile filter=lfs diff=lfs merge=lfs -text
+# devel/local_setup.bash filter=lfs diff=lfs merge=lfs -text
+# devel/local_setup.sh filter=lfs diff=lfs merge=lfs -text
+# devel/local_setup.zsh filter=lfs diff=lfs merge=lfs -text
+# devel/_setup_util.py filter=lfs diff=lfs merge=lfs -text
+# build/CMakeFiles filter=lfs diff=lfs merge=lfs -text
+# devel/setup.bash filter=lfs diff=lfs merge=lfs -text
